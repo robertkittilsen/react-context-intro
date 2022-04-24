@@ -1,0 +1,12 @@
+.theme-dark {
+  color: #000;
+}
+
+span {
+  font-size: 17px;
+  margin-left: 4px;
+}
+
+p {
+  margin: 0;
+}
