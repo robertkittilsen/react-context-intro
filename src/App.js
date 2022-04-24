@@ -19,7 +19,7 @@ function Fasit() {
   return (
     <>
       {/* <Fasit1 /> */}
-      <Fasit2 />
+      {/* <Fasit2 /> */}
       {/* <Fasit3 /> */}
       {/* <Fasit4 /> */}
       {/* <Fasit5 /> */}
@@ -32,7 +32,7 @@ function Eksempler() {
     <>
       {/* <Eksempel1 /> */}
       {/* <Eksempel2a /> */}
-      {/* <Eksempel2b /> */}
+      <Eksempel2b />
       {/* <Eksempel3 /> */}
     </>
   );
