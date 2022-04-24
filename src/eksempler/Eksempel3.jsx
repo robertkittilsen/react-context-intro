@@ -29,11 +29,9 @@ const LoginProvider = ({ children }) => {
 
 export const Eksempel3 = () => {
   return (
-    <div>
-      <LoginProvider>
-        <LoginButton />
-      </LoginProvider>
-    </div>
+    <LoginProvider>
+      <LoginButton />
+    </LoginProvider>
   );
 };
 
