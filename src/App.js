@@ -18,8 +18,8 @@ function Oppgaver() {
 function Fasit() {
   return (
     <>
-      <Fasit1 />
-      {/* <Fasit2 /> */}
+      {/* <Fasit1 /> */}
+      <Fasit2 />
       {/* <Fasit3 /> */}
       {/* <Fasit4 /> */}
       {/* <Fasit5 /> */}
