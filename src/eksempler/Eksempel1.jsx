@@ -8,7 +8,7 @@ export function Eksempel1() {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <div>
+      <div className={`full-size theme--${theme}`}>
         <Text />
         <label>
           <input
@@ -17,7 +17,7 @@ export function Eksempel1() {
               setTheme(e.target.checked ? "dark" : "light");
             }}
           />
-          <span>Use dark mode</span>
+          <span className={`theme--${theme}`}>Use dark mode</span>
         </label>
       </div>
     </ThemeContext.Provider>
@@ -26,7 +26,6 @@ export function Eksempel1() {
 
 function Text() {
   const theme = useContext(ThemeContext);
-  const className = `theme-${theme}`;
 
-  return <p className={className}>Noe tekst</p>;
+  return <p className={`theme--${theme}`}>Noe tekst</p>;
 }
