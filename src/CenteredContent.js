@@ -1,5 +1,5 @@
-// Denne komponenten er en wrapper rundt oppgaver som skal være sentrert i nettleser.
-export const CenteredTask = ({ children }) => {
+// Denne komponenten er en wrapper rundt elementer som skal være sentrert i nettleser.
+export const CenteredContent = ({ children }) => {
   if (children) {
     return (
       <div className="App">

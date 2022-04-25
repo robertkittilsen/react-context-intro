@@ -2,15 +2,15 @@ import "./App.css";
 import { Oppgave1, Oppgave2, Oppgave3, Oppgave4, Oppgave5 } from "./oppgaver";
 import { Fasit1, Fasit2, Fasit3, Fasit4, Fasit5 } from "./fasit";
 import { Eksempel1, Eksempel2a, Eksempel2b, Eksempel3 } from "./eksempler";
-import { CenteredTask } from "./CenteredTask";
+import { CenteredContent } from "./CenteredContent";
 
 function Fasit() {
   return (
     <>
-      <CenteredTask>
+      <CenteredContent>
         {/* <Fasit1 /> */}
         {/* <Fasit2 /> */}
-      </CenteredTask>
+      </CenteredContent>
       {/* <Fasit3 /> */}
       {/* <Fasit4 /> */}
       {/* <Fasit5 /> */}
@@ -20,22 +20,22 @@ function Fasit() {
 
 function Eksempler() {
   return (
-    <CenteredTask>
+    <CenteredContent>
       {/* <Eksempel1 /> */}
       {/* <Eksempel2a /> */}
       <Eksempel2b />
       {/* <Eksempel3 /> */}
-    </CenteredTask>
+    </CenteredContent>
   );
 }
 
 function Oppgaver() {
   return (
     <>
-      <CenteredTask>
-        <Oppgave1 />
+      <CenteredContent>
+        {/* <Oppgave1 /> */}
         {/* <Oppgave2 /> */}
-      </CenteredTask>
+      </CenteredContent>
       {/* <Oppgave3 /> */}
       {/* <Oppgave4 /> */}
       {/* <Oppgave5 /> */}
