@@ -75,6 +75,10 @@ nav li {
   display: block;
 }
 
+.cta-button {
+  display: block;
+}
+
 .lang-nav {
   display: inline-block;
   padding: 10px;

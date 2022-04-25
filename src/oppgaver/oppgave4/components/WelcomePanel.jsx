@@ -14,8 +14,9 @@ export const WelcomePanel = ({ children }) => {
   );
 };
 
-// Gå videre inn i "Panel"
-// Så "Greeting"
-// Så "LoginForm"
-// Så "DarkmodeToggle"
-// Og til slutt "Button"
+// Gå videre inn i Panel.jsx
+// Så Greeting.jsx
+// Så LoginForm.jsx
+// Så DarkmodeToggle.jsx
+// Så Button.jsx
+// Og til slutt steg 14. i Oppgave4.js

@@ -2,7 +2,7 @@ import React, { useState, createContext, useContext } from "react";
 
 const ThemeContext = createContext(null);
 
-export function Fasit2() {
+export const Fasit2 = () => {
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
@@ -17,13 +17,13 @@ export function Fasit2() {
       </div>
     </ThemeContext.Provider>
   );
-}
+};
 
-function Text() {
+const Text = () => {
   const theme = useContext(ThemeContext);
   return (
     <p className={`text theme--${theme}`}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
   );
-}
+};

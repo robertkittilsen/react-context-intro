@@ -63,7 +63,7 @@ const SecondaryNav = () => {
 const CTANav = () => {
   return (
     <div className="cta-nav">
-      <button>CTA</button>
+      <button className="cta-button">CTA</button>
     </div>
   );
 };
