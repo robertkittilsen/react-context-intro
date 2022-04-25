@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./styles.css";
 
 // Oppgave 1: Bruk context istedenfor å sende state med props.
 

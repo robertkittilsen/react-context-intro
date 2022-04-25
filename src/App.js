@@ -19,10 +19,10 @@ function Fasit() {
   return (
     <>
       {/* <Fasit1 /> */}
-      <Fasit2 />
+      {/* <Fasit2 /> */}
       {/* <Fasit3 /> */}
       {/* <Fasit4 /> */}
-      {/* <Fasit5 /> */}
+      <Fasit5 />
     </>
   );
 }
@@ -40,13 +40,15 @@ function Eksempler() {
 
 function App() {
   return (
-    <div className="App">
+    /* <div className="App">
       <header className="App-header">
         <Oppgaver />
         <Fasit />
         <Eksempler />
       </header>
-    </div>
+      
+    </div> */
+    <Fasit />
   );
 }
 
