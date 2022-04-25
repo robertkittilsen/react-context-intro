@@ -5,12 +5,12 @@ import { TodoList } from "./components/TodoList";
 export function Oppgave5() {
   // Her skal du lage en todo-liste ved hjelp av context
   // Den skal kunne legge til nye todo-items, oppdatere dem og fjerne dem.
-  // Slapp av, mye av logikken er allerede tilstedet i komponentene.
+  // Slapp av, mye av logikken er allerede tilstede i komponentene.
   // Det du skal gjøre er å lage context og customhooks for å få det til å fungere!
 
-  // 1. Gå inn i ./context/Todos.js og følg stegene der.
+  // Oppgaven består av 14 steg, du begynner med å følge stegene i ./context/Todos.js.
 
-  // 15. Wrap "section" med TodosProvider
+  // 14. Wrap "section" med TodosProvider
   // Voila! Nå kan du teste todo-listen og sammenligne med fasit.
   return (
     <>

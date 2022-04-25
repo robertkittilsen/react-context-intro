@@ -1,25 +1,25 @@
 import { createContext, useContext, useReducer } from "react";
 
-// 2. Lag en TodosContext med default verdi null
+// 1. Lag en TodosContext med default verdi null
 
-// 3. Lag en TodosDispatchContext med default verdi null
+// 2. Lag en TodosDispatchContext med default verdi null
 
 export function TodosProvider({ children }) {
   // Les mer om reducer her: https://reactjs.org/docs/hooks-reference.html#usereducer
   const [todos, dispatch] = useReducer(todosReducer, initialTodos);
 
-  // 4. Wrap children med TodosDispatchContext provider med value: dispatch
-  // 5. Wrap TodosDispatchContext provideren med TodosContext provider med value: todos
+  // 3. Wrap children med TodosDispatchContext provider med value: dispatch
+  // 4. Wrap TodosDispatchContext provideren med TodosContext provider med value: todos
   return <>{children}</>;
 }
 
 export function useTodos() {
-  // 6. returner TodosContext
+  // 5. returner TodosContext
   return null;
 }
 
 export function useTodosDispatch() {
-  // 7. returner TodosDispatchContext
+  // 6. returner TodosDispatchContext
   // Gå så til ./components/AddTodo.js
   return null;
 }

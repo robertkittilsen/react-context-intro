@@ -3,7 +3,7 @@ import { useTodosDispatch } from "../context/Todos";
 
 export function AddTodo() {
   const [text, setText] = useState("");
-  // 8. Ta i bruk dispatch fra useTodosDispatch nedenfor
+  // 7. Ta i bruk dispatch fra useTodosDispatch nedenfor
   const dispatch = () => null;
   return (
     <>
@@ -16,7 +16,7 @@ export function AddTodo() {
         className="todo-btn"
         onClick={() => {
           setText("");
-          // 9. kall dispatch her med { type: "added", id: nextId++, text: text }
+          // 8. kall dispatch her med { type: "added", id: nextId++, text: text }
           // Gå videre til ./components/TodoList.jsx
           dispatch();
         }}

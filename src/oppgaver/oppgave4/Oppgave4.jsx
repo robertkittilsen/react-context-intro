@@ -9,7 +9,7 @@ export function Oppgave4() {
   // En DarkModeProvider og en CurrentUserProvider
   // Du skal også lage customhooks for å bruke de to contextene
 
-  // Begynn oppgaven ved å lage en CurrentUserContext i ./contexts/CurrentUser.js
+  // Oppgaven består av 13 steg og du begynner med å lage en CurrentUserContext i ./contexts/CurrentUser.js
 
   // 13. Wrap "WelcomePanel" og "DarkmodeToggle" med DarkModeProvider og CurrentUserProvider
   // Dette er siste steg i Oppgave4 og du kan nå teste løsningen og sammenligne med fasit.

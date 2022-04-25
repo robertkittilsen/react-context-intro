@@ -3,7 +3,7 @@ import { useTodos } from "../context/Todos";
 import { TodoItem } from "./TodoItem";
 
 export const TodoList = () => {
-  // 10. Erstatt todos med todos fra useTodos hooken
+  // 9. Erstatt todos med todos fra useTodos hooken
   // Gå til ./components/TodoItem.jsx
   const todos = [];
   return (

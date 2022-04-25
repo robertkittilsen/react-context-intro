@@ -3,7 +3,7 @@ import { useTodosDispatch } from "../context/Todos";
 
 export const TodoItem = ({ todo }) => {
   const [isEditing, setIsEditing] = useState(false);
-  // 11. Erstatt dispatch med dispatch fra useTodosDispatch hooken
+  // 10. Erstatt dispatch med dispatch fra useTodosDispatch hooken
   const dispatch = () => null;
   let todoContent;
   if (isEditing) {
@@ -12,7 +12,7 @@ export const TodoItem = ({ todo }) => {
         <input
           value={todo.text}
           onChange={(e) => {
-            // 12. kall dispatch med følgende objekt:
+            // 11. kall dispatch med følgende objekt:
             /*
             {
               type: "changed",
@@ -46,7 +46,7 @@ export const TodoItem = ({ todo }) => {
         type="checkbox"
         checked={todo.done}
         onChange={(e) => {
-          // 13. kall dispatch med følgende objekt:
+          // 12. kall dispatch med følgende objekt:
           /*
           {
             type: "changed",
@@ -62,7 +62,7 @@ export const TodoItem = ({ todo }) => {
       {todoContent}
       <button
         onClick={() => {
-          // 14. kall dispatch med følgende objekt:
+          // 13. kall dispatch med følgende objekt:
           // Gå videre til Oppgave5.jsx
           /*
           {
