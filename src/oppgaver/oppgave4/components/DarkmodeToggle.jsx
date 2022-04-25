@@ -2,7 +2,8 @@ import React from "react";
 import { useDarkMode } from "../contexts/DarkMode";
 
 export const DarkmodeToggle = () => {
-  // 12. Erstatt linjene under med "darkMode" og "toggle" fra useDarkMode hooken
+  // 11. Erstatt linjene under med "darkMode" og "toggle" fra useDarkMode hooken
+  // Gå videre til Button.jsx
   const darkMode = null;
   const toggle = () => null;
   return (

@@ -1,14 +1,23 @@
 import React, { createContext, useContext, useState } from "react";
 
-// 1. Lag DarkMode slik du gjorde i oppgave 3
-// DarkModeContext, DarkModeProvider og useDarkMode
-
-// Gå så videre til ./context/CurrentUser.js
+const DarkModeContext = createContext(null);
 
 export const DarkModeProvider = ({ children }) => {
-  return children;
+  const [darkMode, setDarkMode] = useState(false);
+
+  return (
+    <DarkModeContext.Provider
+      value={{ darkMode, toggle: () => setDarkMode(!darkMode) }}
+    >
+      {children}
+    </DarkModeContext.Provider>
+  );
 };
 
 export const useDarkMode = () => {
-  return null;
+  const context = useContext(DarkModeContext);
+  if (!context) {
+    throw new Error("useDarkMode must be used within a DarkModeProvider");
+  }
+  return { darkMode: context.darkMode, toggle: context.toggle };
 };

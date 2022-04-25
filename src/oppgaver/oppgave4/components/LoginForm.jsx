@@ -3,7 +3,8 @@ import { useCurrentUser } from "../contexts/CurrentUser";
 import { Button } from "./Button";
 
 export const LoginForm = () => {
-  // 11. Erstatt linjen under med setCurrentUser fra useCurrentUser hooken
+  // 10. Erstatt linjen under med setCurrentUser fra useCurrentUser hooken
+  // Gå videre til DarkmodeToggle.jsx
   const setCurrentUser = null;
 
   const [firstName, setFirstName] = useState("");

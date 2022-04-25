@@ -12,6 +12,7 @@ export function Oppgave3() {
 
 function Panel() {
   // 8. Hent "darkMode" og "toggle" fra useDarkMode()-customHook
+  // Oppgaven er ferdig! Du kan nå teste løsningen og sammenligne med fasit.
   const darkMode = null;
   const toggle = null;
   const theme = darkMode ? "dark" : "light";
