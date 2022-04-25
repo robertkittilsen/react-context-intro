@@ -23,7 +23,7 @@ function Eksempler() {
     <CenteredTask>
       {/* <Eksempel1 /> */}
       {/* <Eksempel2a /> */}
-      {/* <Eksempel2b /> */}
+      <Eksempel2b />
       {/* <Eksempel3 /> */}
     </CenteredTask>
   );
