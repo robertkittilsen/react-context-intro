@@ -49,9 +49,12 @@
   margin: 0;
 }
 
-.theme--dark {
-  color: #fff;
+.theme-bg--dark {
   background-color: #282c34;
+}
+
+.theme-text--dark {
+  color: #fff;
 }
 
 .App-link {
