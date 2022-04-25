@@ -11,7 +11,7 @@ export function Fasit2() {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <div className={`full-size theme--${theme}`}>
+      <div className={`full-size theme-bg--${theme}`}>
         <button onClick={toggleTheme}>Toggle theme</button>
         <Text />
       </div>
@@ -22,7 +22,7 @@ export function Fasit2() {
 function Text() {
   const theme = useContext(ThemeContext);
   return (
-    <p className={`text theme--${theme}`}>
+    <p className={`text theme-text--${theme}`}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
   );

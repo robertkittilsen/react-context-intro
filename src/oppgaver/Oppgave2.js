@@ -8,12 +8,12 @@ export function Oppgave2() {
 
   return null;
   // 4. Sett opp en context provider som tar imot "theme" som value.
-  // Inni provideren skal det være en div: <div className={`full-size theme--${theme}`}></div>
+  // Inni provideren skal det være en div: <div className={`full-size theme-bg--${theme}`}></div>
   // Inni denne div'en skal du lage en button som kjører toggleTheme metoden ved onClick og <Text/>-komponenten
 }
 
 function Text() {
   // 5. Konsumer contexten her.
   // Returner det som står under:
-  // return <p className={`text theme--${theme}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  // return <p className={`text theme-text--${theme}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 }
