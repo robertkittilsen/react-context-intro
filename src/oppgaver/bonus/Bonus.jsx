@@ -48,5 +48,5 @@ const ConfettiWrapper = () => {
   // 5. Bruk useConfettiMode
   // 6. Test løsningen i nettleser 🤩
   const confettiMode = null;
-  return confettiMode ? <Confetti numberOfPieces={800} /> : null;
+  return confettiMode && <Confetti numberOfPieces={800} />;
 };
