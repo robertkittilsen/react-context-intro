@@ -24,8 +24,8 @@ export function useTodosDispatch() {
   return null;
 }
 
-// Denne funksjonen tar imot forskjellige "actions" og returnerer en ny todos-state
-// Du trenger ikke gjøre endringer i denne
+// Denne funksjonen tar imot forskjellige "actions" og returnerer en ny todos-state.
+// Du trenger ikke gjøre endringer i denne.
 function todosReducer(todos, action) {
   switch (action.type) {
     case "added": {

@@ -1,6 +1,20 @@
 import "./App.css";
-import { Oppgave1, Oppgave2, Oppgave3, Oppgave4, Oppgave5 } from "./oppgaver";
-import { Fasit1, Fasit2, Fasit3, Fasit4, Fasit5 } from "./fasit";
+import {
+  Oppgave1,
+  Oppgave2,
+  Oppgave3,
+  Oppgave4,
+  Oppgave5,
+  Bonus,
+} from "./oppgaver";
+import {
+  Fasit1,
+  Fasit2,
+  Fasit3,
+  Fasit4,
+  Fasit5,
+  Bonus as BonusFasit,
+} from "./fasit";
 import { Eksempel1, Eksempel2a, Eksempel2b, Eksempel3 } from "./eksempler";
 import { CenteredContent } from "./CenteredContent";
 
@@ -14,6 +28,7 @@ function Fasit() {
       {/* <Fasit3 /> */}
       {/* <Fasit4 /> */}
       {/* <Fasit5 /> */}
+      {/* <BonusFasit /> */}
     </>
   );
 }
@@ -39,6 +54,7 @@ function Oppgaver() {
       {/* <Oppgave3 /> */}
       {/* <Oppgave4 /> */}
       {/* <Oppgave5 /> */}
+      {/* <Bonus /> */}
     </>
   );
 }

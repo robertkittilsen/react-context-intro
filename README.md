@@ -16,9 +16,9 @@ Tilhørende presentasjon finner du som `.pdf` i mappen `src/presentasjon`
 ## Oppgaver
 
 Når du starter dette prosjektet er det komponenten "Eksempel2b" som vises.
-Etter du har lekt deg litt med denne kan du navigere til `App.js` og kommentere ut `<Eksempel2b />`.
+Etter du har lekt deg litt med denne kan du navigere til `App.js` og kommentere ut `<Eksempel2b />` i funksjonen "Eksempler.
 
-Finn så oppgavene i mappen "oppgaver" og fjern kommentaren rundt oppgaven du begynner med i `App.js` under funksjonen "Oppgaver".
+Finn så oppgavene i mappen "oppgaver" og fjern kommentaren rundt oppgaven du begynner med i `App.js` i funksjonen "Oppgaver".
 
 I selve oppgaven vil du finne en forklarende tekst på hva du skal gjøre og steg for å fullføre oppgaven.
 Om du ikke finner frem eller generelt er forvirret, spør Robert eller Anna Li ^^

@@ -11,7 +11,9 @@ export function Oppgave5() {
   // Oppgaven består av 14 steg, du begynner med å følge stegene i ./context/Todos.js.
 
   // 14. Wrap "section" med TodosProvider
-  // Voila! Nå kan du teste todo-listen og sammenligne med fasit.
+  // Voila! Legg til et element i todo-listen for å se til at alt fungerer som det skal.
+  // Nå kan du gjøre bonus oppgaven og få en liten belønning for alt arbeidet 😇
+
   return (
     <>
       <section className="section-todo">
