@@ -1,9 +1,17 @@
 import React, { useState } from "react";
-import "./styles.css";
-
-// Oppgave 1: Bruk context istedenfor å sende state med props.
 
 export const Oppgave1 = () => {
+  // Kjør opp oppgaven i App.js! Du skal se en header med en meny på venstre side og to knapper på høyre side.
+  // Trykker du på English/Norsk skal menyen på venstre side bytte språk.
+
+  // Oppgaven går ut på at du skal bruke context istedenfor å sende state med props.
+
+  // 1. Opprett en context, kall den f.eks. LangContext.
+  // 2. Opprett en Provider og wrap denne rundt Header-komponenten.
+  // 3. Sett lang og handleLangChange som verdier i Provideren.
+  // 4. Konsumer contexten i LangMenu-komponenten.
+  // Obs! Du må også gjøre endringer med Header, PrimaryNav, ScondaryNav, LangNav!
+
   const [lang, setLang] = useState("norwegian");
 
   const handleLangChange = () => {
@@ -53,7 +61,7 @@ const SecondaryNav = ({ lang, handleLangChange }) => {
 const CTANav = () => {
   return (
     <div className="cta-nav">
-      <button>CTA</button>
+      <button className="cta-button">CTA</button>
     </div>
   );
 };

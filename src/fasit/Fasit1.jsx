@@ -1,5 +1,4 @@
 import React, { useState, createContext, useContext } from "react";
-import "./styles.css";
 
 const LangContext = createContext(null);
 
@@ -64,7 +63,7 @@ const SecondaryNav = () => {
 const CTANav = () => {
   return (
     <div className="cta-nav">
-      <button>CTA</button>
+      <button className="cta-button">CTA</button>
     </div>
   );
 };
